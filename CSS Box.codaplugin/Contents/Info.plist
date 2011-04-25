@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalent</key>
+			<string>~^@h</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>HTML to CSS</string>
+			<key>output</key>
+			<string>newDocument</string>
+			<key>script</key>
+			<string>parser.py</string>
+			<key>setInsertionPoint</key>
+			<true/>
+			<key>uuid</key>
+			<string>6C7FDF8E-9EBE-4F3B-B54E-D69B10AA76E8</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>CSS Beauty</string>
+			<key>script</key>
+			<string>cssbeauty.py</string>
+			<key>uuid</key>
+			<string>2783DB6D-A315-42DB-8A50-63436DA287FC</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalent</key>
+			<string>~^@g</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>CSS Groundhog</string>
+			<key>output</key>
+			<string>replaceSelectedText</string>
+			<key>preprocess</key>
+			<string>none</string>
+			<key>script</key>
+			<string>phil_chuck.py</string>
+			<key>uuid</key>
+			<string>E62B6E9A-04C1-475C-8465-7F677AD05BC3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
