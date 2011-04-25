@@ -7,22 +7,20 @@ CSS BOX - Panic Coda Plugin
 # Please gimme your feedback if you have some problems.
 
 
+Install –
+Copy the File CSS Box.codaplugin to User/Library/Application Support/Coda/Plug-Ins/
+Restart Coda
 
-HTML to CSS
---------------------------------------------------
+
+HTML to CSS –
 Select your HTML Structure and get the CSS for the selected Id's and Classes.
 
 
-
-CSS Beauty
---------------------------------------------------
+CSS Beauty –
 CSS Reformatin
 
 
-
-
-CSS Groundhound
---------------------------------------------------
+CSS Groundhound –
 CSS Reformating
 
 
